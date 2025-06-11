@@ -1,0 +1,36 @@
+.lp{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+ a.nh{ 
+    color: black; 
+} 
+.kj{
+    background-color: white;
+    border:none;
+}
+@media screen and (max-width: 726px){
+    .lp1{
+        margin-left: 50px;
+        display: block;
+        margin-top: 50px;
+    }
+    .lp{
+        display: none;
+    }
+    .acc{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media screen and (min-width: 727px) and (max-width:1024px){
+    .lp1{
+        display: none;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .lp1{
+        display: none;
+    }
+}
+

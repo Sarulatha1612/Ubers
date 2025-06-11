@@ -1,0 +1,42 @@
+.j2{
+    width:600px;
+    height:350px;
+    margin-top: 100px;
+}
+.d6{
+    margin-top: 150px;
+}
+ .h5{
+    font-size: 17px;
+} 
+
+@media screen and (max-width: 726px){
+    .d6{
+        margin-left: 50px;
+    }
+    .d7{
+        display: none;
+    }
+    .d8{
+        display: block;
+    }
+}
+@media screen and (min-width: 1024px){
+.d8{
+    display: none;
+}
+}
+@media screen and (min-width: 726px) and (max-width:1024px){
+    .d7{
+        display: none;
+    }
+    .d8{
+        display: block;
+    }
+    .d6{
+        margin-left: 50px;
+    }
+
+    }
+
+

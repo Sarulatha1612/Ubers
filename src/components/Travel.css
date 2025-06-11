@@ -1,0 +1,50 @@
+.f8{
+    margin-top: 100px;
+    margin-left: 175px;
+}
+.h8{
+    padding-left: 100px;
+    margin-top: 30px;
+    padding-right: 100px;
+}
+#m9{
+    background-color: black;
+    border-radius: 7px;
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+@media screen and (max-width: 726px) {
+    .f9{
+       display: none;
+    }
+    .f10{
+        display: block;
+        
+    }
+    .f8{
+        margin-left: 50px;
+    }
+    .v5{
+        margin-top: 50px;
+    }
+    
+}
+@media screen and (min-width: 727px) and (max-width:1024px) {
+    .f10{
+        display: none;
+    }
+    .v5{
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .f10{
+        display: none;
+    }
+}
+
+
+
+
+
